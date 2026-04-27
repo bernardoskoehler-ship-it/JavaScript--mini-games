@@ -1,1 +1,111 @@
+/* General styles */
+html, body {
+    height: 100%;
+    margin: 0;
+}
 
+body {
+    background-image: url("https://tse3.mm.bing.net/th/id/OIP.LaDfcTN2GKzhMTJwXPsLAQHaE7?rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1, h2, p {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Score */
+.score-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.score-container h2,
+.score-container p {
+    margin: 0;
+}
+
+/* Buttons */
+#bot1, #bot2, #bot3 {
+    background-color: transparent;
+    border: none;
+}
+
+#bot1 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 345px;
+    left: 1350px;
+}
+
+#bot2 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 345px;
+    left: 845px;
+}
+
+#bot3 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 345px;
+    left: 345px;
+}
+
+/* Boxes */
+#cax1 {
+    width: 500px;
+    position: absolute;
+    top: 500px;
+    left: 1200px;
+}
+
+#cax2 {
+    width: 500px;
+    position: absolute;
+    top: 500px;
+    left: 700px;
+}
+
+#cax3 {
+    width: 500px;
+    position: absolute;
+    top: 500px;
+    left: 200px;
+}
+
+/* Andrew Garfield images */
+#adg1 {
+    transition: top 1.5s ease;
+    width: 170px;
+    position: absolute;
+    top: 570px;
+    left: 1360px;
+}
+
+#adg2 {
+    transition: top 1.5s ease;
+    width: 170px;
+    position: absolute;
+    top: 570px;
+    left: 860px;
+}
+
+#adg3 {
+    transition: top 1.5s ease;
+    width: 170px;
+    position: absolute;
+    top: 570px;
+    left: 360px;
+}
