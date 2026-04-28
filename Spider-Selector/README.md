@@ -1,15 +1,29 @@
-# 🕷️ Spider Selector Mini Game
+# 🕷️ Spider-Man Selector
 
-A simple interactive web project where users can choose between different "Spider-Man" variations and dynamically change the images displayed on the screen.
+A simple interactive mini project where you can switch between different Spider-Man actors using buttons.
 
 ---
 
-## 🚀 Features
+## 🚀 About the Project
 
-* 🎯 Interactive buttons to select characters
-* 🖼️ Dynamic image swapping using JavaScript
-* 🎨 Basic styling with CSS
-* ⚡ Instant feedback on user interaction
+**Spider-Man Selector** is a beginner-friendly front-end project built with **HTML, CSS, and JavaScript**.
+
+The goal of this project is to practice:
+
+* DOM manipulation
+* Event handling
+* Dynamic image updates
+
+Users can click buttons to change the displayed characters instantly.
+
+---
+
+## 🎮 Features
+
+* Button-based character selection
+* Dynamic image swapping
+* Simple and clean layout
+* Instant visual feedback
 
 ---
 
@@ -17,65 +31,73 @@ A simple interactive web project where users can choose between different "Spide
 
 * HTML5
 * CSS3
-* JavaScript (DOM manipulation)
+* JavaScript (Vanilla)
 
 ---
 
-## 📸 How It Works
-
-The user clicks one of the buttons:
-
-* **André Garfo**
-* **Tobias Maquiado**
-* **Toninho Holanda**
-
-Each button triggers a JavaScript function that updates the `src` of three images, changing what is displayed on the screen.
-
----
-
-## 🧠 Concepts Practiced
-
-This project focuses on fundamental front-end concepts:
-
-* DOM selection using `getElementById`
-* Event handling with `onclick`
-* Dynamic attribute manipulation (`img.src`)
-* Basic UI interaction
-
----
-
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
-project/
-│── index.html
+v1-spiderman-selector/
+│
+├── index.html
+├── style.css
+└── script.js
 ```
 
 ---
 
 ## ▶️ How to Run
 
-1. Download or clone the repository
-2. Open the `index.html` file in your browser
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/javascript-minigames.git
+```
+
+2. Navigate to the project folder:
+
+```
+cd javascript-minigames/v1-spiderman-selector
+```
+
+3. Open `index.html` in your browser
+
+---
+
+## 🧠 What I Learned
+
+* How to use `getElementById`
+* How to handle click events with `onclick`
+* How to dynamically update images using `.src`
+* Basic project structure organization (HTML, CSS, JS separation)
 
 ---
 
 ## 💡 Future Improvements
 
-* 🔄 Add toggle system (switch between states)
-* 🎮 Show only one character at a time
-* ✨ Add animations (hover / transitions)
-* 🎨 Improve UI (modern design)
-* 📱 Make it responsive
+* Replace image URLs with local assets
+* Add more characters or variations
+* Refactor code using arrays instead of repetition
+* Improve UI/UX design
+* Add animations or transitions
+
+---
+
+## 📸 Preview
+
+> (Add a screenshot or GIF here for better presentation)
 
 ---
 
 ## 📌 Notes
 
-This is a beginner-friendly project focused on learning JavaScript fundamentals and DOM manipulation.
+This project is part of my learning journey in front-end development and JavaScript.
 
 ---
 
-## 👨‍💻 Author
+## 👤 Author
 
 Developed by **Bernardo Koehler**
+
+---
